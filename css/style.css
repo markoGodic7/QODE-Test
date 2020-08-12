@@ -12,7 +12,11 @@
 }
 
 .container{
-    margin-top: 18px;
+    margin-top: 25px;
+}
+
+.logo{
+    bottom: 10px;
 }
 
 ul {
@@ -31,11 +35,13 @@ ul {
     justify-content: flex-end;
     right: 0;
     top: 0;
+    bottom: 10px !important;
     line-height: 2.2;
     font-family: "Montserrat-Regular";
     font-size: 12px;
     letter-spacing: 0.05em;
     margin-bottom: 10px;
+    padding-bottom: 10px !important;
 }
 
 li {
@@ -52,9 +58,14 @@ li {
     text-decoration: none;
 }
 
+#small > li > a{
+    letter-spacing: 0.1em;
+}
+
 #small > li:hover{
     background-color: #f6e4e8;
 }
+
 
 #small > li > a:hover{
     background-color: #f6e4e8;
@@ -105,6 +116,12 @@ li {
     }
 }
 
+@media (min-width: 1200px){
+    .navbar-nav > .nav-item > .nav-link{
+        letter-spacing: 0.15em !important;
+    }
+}
+
 @media (min-width: 1366px){
     .navbar-nav > .nav-item > .nav-link{
         padding-left: 15px !important;
@@ -113,7 +130,7 @@ li {
 }
 
 #about{
-    margin-left: 25px !important;
+    margin-left: 10px !important;
 }
 
 .navbar-nav > .nav-item :hover{
@@ -151,7 +168,139 @@ li {
 
 .navigacija{
     padding: 0px;
+    padding-right: 3px !important;
 }
+
+
+/* body .card {
+    margin: -1px;
+    border-radius: 0;
+}
+.card-header{
+    padding: 0px;
+    padding-top: 15px !important;
+    background-color: #fff;
+}
+
+.card-header > img{
+    width: 100%;
+}
+
+.card-body{
+    padding: 15px 0px;
+}
+
+.card-body > h2{
+    color: #f84970;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.card-body > p{
+    color: #929090;
+    font-size: 14px;
+}
+
+.card-body > a{
+    color: #bdb3b6;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+.card-body > a:hover{
+    color: #929090;
+}
+
+.card-body > a:visited{
+    color: #bdb3b6;
+}
+
+.smallCard{
+    padding: 15px !important;
+}
+
+.smallCardContent > h2{
+    font-size: 12px;
+    color: #f84970;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+.smallCardContent > h3{
+    font-size: 22px !important;
+}
+
+.smallCardContent > p{
+    font-size: 14px;
+    color: #929090;
+    margin-bottom: 5px !important;
+}
+
+.smallCardContent > a{
+    color: #bdb3b6;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+.smallCardContent > a:hover{
+    color: #929090;
+}
+
+.smallCardContent > a:visited{
+    color: #bdb3b6;
+}
+
+.smallCardImage > img{
+    width: 100%;
+}
+
+.copy{
+    color: #929090;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.animated:hover {
+    -webkit-transform: translate(-10px, -10px);
+    -ms-transform: translate(-10px, -10px);
+    transform: translate(-10px, -10px);
+    border: 1px solid #e8e8e8;
+    color: black;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-box-shadow: 1px 1px 0 #f84970, 1px 2px 0 #f84970, 3px 3px 0 #f84970, 4px 4px 0 #f84970, 5px 5px 0 #f84970, 6px 6px 0 #f84970, 7px 7px 0 #f84970, 8px 8px 0 #f84970, 9px 9px 0 #f84970, 10px 10px 0 #f84970;
+    box-shadow: 1px 1px 0 #f84970, 1px 2px 0 #f84970, 3px 3px 0 #f84970, 4px 4px 0 #f84970, 5px 5px 0 #f84970, 6px 6px 0 #f84970, 7px 7px 0 #f84970, 8px 8px 0 #f84970, 9px 9px 0 #f84970, 10px 10px 0 #f84970;
+}
+
+
+
+
+
+ */
+
+
+
+
+
+
+ body .card {
+    margin: -1px;
+    border-radius: 0;
+}
+
+
+
 
 .card-header{
     padding: 0px;
