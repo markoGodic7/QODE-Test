@@ -75,7 +75,7 @@ li {
 
 @media (max-width: 1024px) {
 
-    
+
     .navigacija{
         max-width: 100% !important;
     }
@@ -348,6 +348,7 @@ li {
 
 .smallCard{
     padding: 15px !important;
+    max-height: 250px !important;
 }
 
 .smallCardContent > h2{
@@ -396,15 +397,17 @@ li {
     margin-bottom: 35px;
 }
 
+.animated{
+    transition: all 0.5s ease-in-out;
+}
+
 .animated:hover {
     -webkit-transform: translate(-10px, -10px);
     -ms-transform: translate(-10px, -10px);
     transform: translate(-10px, -10px);
+    transition: all 0.5s ease !important;
     border: 1px solid #e8e8e8;
     color: black;
-    -webkit-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
-    transition-duration: 0.5s;
     -webkit-box-shadow: 1px 1px 0 #f84970, 1px 2px 0 #f84970, 3px 3px 0 #f84970, 4px 4px 0 #f84970, 5px 5px 0 #f84970, 6px 6px 0 #f84970, 7px 7px 0 #f84970, 8px 8px 0 #f84970, 9px 9px 0 #f84970, 10px 10px 0 #f84970;
     box-shadow: 1px 1px 0 #f84970, 1px 2px 0 #f84970, 3px 3px 0 #f84970, 4px 4px 0 #f84970, 5px 5px 0 #f84970, 6px 6px 0 #f84970, 7px 7px 0 #f84970, 8px 8px 0 #f84970, 9px 9px 0 #f84970, 10px 10px 0 #f84970;
 }
